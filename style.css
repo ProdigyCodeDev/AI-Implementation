@@ -4,10 +4,11 @@
 	box-sizing: border-box;
 	font-family: sans-serif;
 	
+	
 }
 
 body {
-	background-color: whitesmoke;
+	background-color: #1F2833;
 }
 
 /*Text styles*/
@@ -195,7 +196,10 @@ section h2{
 }
 
 section{
-	padding-top: 20%;
+	padding-bottom: 5rem;
+	background-color: #1F2833;
+	color: whitesmoke;
+	
 }
 
 
@@ -206,7 +210,22 @@ img{
 
 }
 
-.title-box{
-	height: 5rem;
-	outline-style: dashed;
+.title-block{
+	height: 6rem;
+	outline-style:hidden;
+	outline-width: 5px;
+	width: 100%;
+	background-color: #000;
+	text-align: center;
+	padding-top: 0em;
+	line-height: 3rem;
+}
+
+.title-block h1{
+	line-height: 3rem;
+	color: whitesmoke;
+	padding-top: 5px;
+	text-align: center;
+	te
+
 }
