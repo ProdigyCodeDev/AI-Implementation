@@ -197,3 +197,16 @@ section h2{
 section{
 	padding-top: 20%;
 }
+
+
+
+
+img{
+	width: 100%;
+
+}
+
+.title-box{
+	height: 5rem;
+	outline-style: dashed;
+}
