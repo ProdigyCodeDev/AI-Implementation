@@ -207,7 +207,8 @@ section{
 
 img{
 	width: 100%;
-
+	height: auto;
+	
 }
 
 .title-block{
@@ -226,6 +227,11 @@ img{
 	color: whitesmoke;
 	padding-top: 5px;
 	text-align: center;
-	te
+	
 
+}
+
+.row{
+	height: auto;
+	width: 100%;
 }
