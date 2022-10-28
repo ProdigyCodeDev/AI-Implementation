@@ -11,11 +11,20 @@ hamburger.addEventListener('click', () => {
 		: 'menu';
 	
 	mobile_menu.classList.toggle('is-open');
+	
 })
 
 mobile_menu.addEventListener('click', () =>{
 	mobile_menu.classList.toggle('is-closed');
 
 
+
 })
 
+
+
+const navbar = document.getElementById('navbar')
+
+window.addEventListener('scroll',()=>{
+    navbar.classList.toggle('header__sticky',window.scrollY > 0)
+})
